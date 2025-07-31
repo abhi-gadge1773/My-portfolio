@@ -7,7 +7,7 @@ const Projects: React.FC = () => {
       title: "Java CI/CD App",
       description: "Complete CI/CD setup with Jenkins, Docker, and GitHub Webhooks for automated deployment pipeline. Features automated testing, containerization, and deployment strategies.",
       tech: ["Jenkins", "Docker", "GitHub Webhooks", "Java", "CI/CD"],
-      github: "#",
+      github: "https://github.com/abhi-gadge1773/java-CICD-app.git",
       demo: "#",
       status: "completed",
       highlights: [
@@ -18,17 +18,17 @@ const Projects: React.FC = () => {
       ]
     },
     {
-      title: "Automated CI/CD Pipeline on AWS with Kubernetes",
-      description: "Production-ready CI/CD pipeline on AWS using self-managed Kubernetes, Jenkins, Terraform, and ArgoCD. Focuses on scalability, security, and GitOps practices.",
-      tech: ["AWS", "Kubernetes", "Jenkins", "Terraform", "ArgoCD", "GitOps"],
-      github: "#",
+      title: "EKS Cluster with HPA",
+      description: "AWS EKS cluster setup with Horizontal Pod Autoscaler (HPA) demonstrating automatic pod scaling based on CPU load. Features load testing, metrics server integration, and real-time autoscaling capabilities.",
+      tech: ["AWS EKS", "Kubernetes", "HPA", "Metrics Server", "Load Testing", "Docker"],
+      github: "https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA.git",
       demo: "#",
       status: "completed",
       highlights: [
-        "Self-managed Kubernetes cluster",
-        "Infrastructure as Code with Terraform",
-        "GitOps deployment with ArgoCD",
-        "Multi-environment deployment strategy"
+        "Self-managed EKS cluster on AWS",
+        "Horizontal Pod Autoscaler configuration",
+        "Metrics Server for resource monitoring",
+        "Load testing with automatic scaling"
       ]
     }
   ];
