@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
               <ExternalLink size={18} />
             </button>
             <a
-              href="/resume.docx"
+              href="/ABHIJEET%20GADGE%20RESUME%28F%29.pdf"
               download
               className="px-8 py-3 border border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-slate-900 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 flex items-center gap-2 justify-center"
             >
